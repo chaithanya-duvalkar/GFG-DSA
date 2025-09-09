@@ -1,6 +1,6 @@
 
 public class rotateArray {
-    static void reverse(int[] arr,int left,int right)
+    static void reverseArray(int[] arr,int left,int right)
     {
         while(left<right)
         {
@@ -16,9 +16,9 @@ public class rotateArray {
         int n=arr.length;
         d=d%n;
 
-        reverse(arr,0,d-1);
-        reverse(arr,d,n-1);
-        reverse(arr,0,n-1);
+        reverseArray(arr,0,d-1);
+        reverseArray(arr,d,n-1);
+        reverseArray(arr,0,n-1);
     }
     
 }
