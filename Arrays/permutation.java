@@ -1,4 +1,4 @@
-class Solution {
+class permutation {
     void nextPermutation(int[] arr) {
         // code here
         int n=arr.length;
