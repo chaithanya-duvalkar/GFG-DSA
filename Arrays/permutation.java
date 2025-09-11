@@ -19,10 +19,13 @@ class Solution {
             arr[j]=temp;
         }
         int start=i+1,end=n-1;
-        int temp=arr[start];
-        arr[start]=arr[end];
-        arr[end]=temp;
-        start++;
-        end--;
+        while(start<end)
+        {
+            int temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+            start++;
+            end--;
+        }
     }
 }
