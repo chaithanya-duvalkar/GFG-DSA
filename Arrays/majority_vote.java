@@ -36,7 +36,7 @@ class majority_vote {
                 a=num;
                 c1=1;
             }
-            else if(c2==0)a
+            else if(c2==0)
             {
                 b=num;
                 c2=1;
