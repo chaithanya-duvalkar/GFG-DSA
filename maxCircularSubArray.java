@@ -29,7 +29,15 @@ public class maxCircularSubArray {
             total_Sum+=arr[i];
         }
 
-        
+        int[] inverted=new int[n];
+        for(int i=0;i<n;i++){
+            inverted[i]=-arr[i];
+        }
+        int minSubArray=-kadane(arr);
+        int result=total_Sum-minSubArray;
+        return result;
+
+
 
     }
 
