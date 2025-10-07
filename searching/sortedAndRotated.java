@@ -1,3 +1,4 @@
+import java.util.*;
 public class sortedAndRotated {
     public int findMin(int[] arr) {
         // complete the function here

@@ -15,29 +15,29 @@
 // Explanation: As no element in arr[] is greater than 100, return the length of array.
 
 
-public class lowerBound {
-    public:
-    int lowerBound(vector<int>& arr,int target)
-    {
-        int low=0,high=arr.size()-1;
-        int ans=arr.size();
+// public class lowerBound {
+//     public:
+//     int lowerBound(vector<int>& arr,int target)
+//     {
+//         int low=0,high=arr.size()-1;
+//         int ans=arr.size();
 
-        while(low<=high)
-        {
-            int mid=(low+high)/2;
-            if(arr[mid]>=target)
-            {
-                ans=mid;
-                high=mid-1;
-            }
-            else{
-                low=mid+1;
-            }
-        }
-        return ans;
+//         while(low<=high)
+//         {
+//             int mid=(low+high)/2;
+//             if(arr[mid]>=target)
+//             {
+//                 ans=mid;
+//                 high=mid-1;
+//             }
+//             else{
+//                 low=mid+1;
+//             }
+//         }
+//         return ans;
 
-    }
-};
+//     }
+// };
 
 // public class LowerBound {
 //     public int lowerBound(int[] arr, int target) {

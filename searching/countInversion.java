@@ -1,5 +1,5 @@
 public class countInversion {
-    public static InversionCount(int[] arr)
+    public static int InversionCount(int[] arr)
     {
         int n=arr.length;
         int count=0;

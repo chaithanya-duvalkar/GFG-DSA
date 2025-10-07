@@ -12,7 +12,7 @@
 // Input: citations[] = [0, 0]
 // Output: 0
 // Explanation: The H-index is 0 because there are no papers with at least 1 citation.
-
+import java.util.*;
 class HIndex{
     public static int hIndex(int[] citations)
     {
