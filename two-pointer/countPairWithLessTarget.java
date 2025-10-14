@@ -1,7 +1,5 @@
 // Given an array arr[] and an integer target. You have to find the number of pairs in the array whose sum is strictly less than the target.
-
 // Examples:
-
 // Input: arr[] = [7, 2, 5, 3], target = 8
 // Output: 2
 // Explanation: There are 2 pairs with sum less than 8: (2, 5) and (2, 3). 
