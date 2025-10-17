@@ -12,6 +12,7 @@
 // Input: s1 = "listen", s2 = "lists" 
 // Output: false 
 // Explanation: The characters in the two strings are not the same — some are missing or extra. So, they are not anagrams.
+
 import java.util.*;
 
 class Anagram {
