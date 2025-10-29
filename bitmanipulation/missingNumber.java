@@ -10,6 +10,7 @@
 // Output: 2
 // Explanation: Only 1 is present so the missing element is 2.
 
+
 public class missingNumber {
     public int MissingNumber(int[] arr)
     {
