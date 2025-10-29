@@ -1,5 +1,4 @@
 public class findrepetitive {
-
     public int findDuplicate(int[] arr) {
         // code here
         int duplicate=0;
@@ -15,4 +14,3 @@ public class findrepetitive {
         return duplicate;
     }
 }
-
